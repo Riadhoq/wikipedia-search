@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Search</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab" rel="stylesheet">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="page-header container text-center">
+    <h1><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png">Wikipedia Search</h1>
+  </header>
+  <div class="container text-center" style=" padding: 20px">
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-7">
+        <input type="text" class="form-control" placeholder="Search..." id="search">
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-4">
+      </div>
+      <button class="btn btn-color" type="submit" id="submit"><i class="fa fa-search fa-2x"></i><span class="link-title"> Search</button>
+      <button class="btn btn-color" type="submit" id="random"><i class="fa fa-random fa-2x"></i><span class="link-title"> I'm Feeling Lucky!</button>
+    </div>
+  </div>
+  <div class="container" id="result"></div>
+
+<footer class="container text-center page-footer" style="padding:80px">Made by <a href="https://codepen.io/Riadhoq/pens/public/#" target="_blank" style="color:#F79824;">Riadul Hoque</a> &copy2017</footer>
+
+<script src="js/index.js"></script>
+</body>
+
+</html>
